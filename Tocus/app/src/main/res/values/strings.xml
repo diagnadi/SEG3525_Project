@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tocus</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tocuspage">tocus settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_confirmation">Confirmation</string>
+    <string name="title_activity_search_fullscreen">Search</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_search_tocus">SearchTocus</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_feed">Feed</string>
+    <string name="title_activity_feed2">Feed</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="app_id">702670026460874</string>
+
+</resources>

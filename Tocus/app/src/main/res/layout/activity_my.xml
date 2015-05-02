@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MyActivity"
+    android:background="#ff000000"
+    android:clickable="false"
+    android:id="@+id/s">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:divider="#ffffffff">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:id="@+id/button4"
+            android:textColor="#ff000000"
+            android:background="#fffafffb"
+            android:clickable="true"
+            android:onClick="register"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Login with Facebook"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffffff"
+            android:background="#ff172eff"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:onClick="toFeedFacebook"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome to Tocus"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:textSize="36dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Present the concept of Tocus here"
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView"
+        android:textColor="#ffffffff"
+        android:gravity="center" />
+
+</RelativeLayout>
